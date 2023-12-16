@@ -672,7 +672,7 @@ const AdminPage = () => {
             </button>
             {modalAdminContactUs && (
               <div className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-50">
-                <div className="bg-white  rounded-lg w-auto">
+                <div className="bg-white  rounded-lg w-3/4">
                   <div className="mb-4 py-3  flex bg-indigo-400 rounded">
                     <span className="text-2xl text-white flex px-12 justify-center font-medium flex-grow">
                       User Messages{modalAdminContactUs}
